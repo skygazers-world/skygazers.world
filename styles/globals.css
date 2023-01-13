@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: "GATWICKREG";
+    src: url("../assets/fonts/PPGatwick-Regular.woff");
+}
+@font-face {
+font-family: "GATWICKBOLD";
+src: url("../assets/fonts/PPGatwick-Bold.woff");
+}
+
+
+
+@layer base {
+    .bodycopy {
+      @apply text-sgbodycopy text-[14px] md:text-[16px] leading-4 md:leading-5;
+    }
+    .allbtns {
+      @apply font-gatwickbold;
+    }
+    .smallbtn {
+      @apply allbtns bodycopy py-3 px-8 rounded-[8px];
+    }
+    .middlerounded {
+      @apply allbtns text-[16px] md:text-[18px] py-4 px-16 rounded-[28px];
+    }
+    .bigrounded {
+      @apply allbtns text-[16px] md:text-[18px] py-6 px-20 rounded-[39px];
+    }
+
+    .smallyellowbtn {
+      @apply smallbtn bg-sgyellow;
+    }
+
+
+    h1,
+    h2,
+    h3,
+    p,
+    a,
+    ul,
+    li {
+      @apply text-sgbodycopy;
+    }
+    h1,
+    h2,
+    h3 {
+      @apply font-gatwickbold uppercase;
+    }
+    h1 {
+      @apply text-[22px] md:text-[34px] leading-[36px] md:leading-[48px];
+    }
+    p,li,a {
+        font-family: 'Nunito', sans-serif;
+    }
+    a.bodycopylink {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+  }
