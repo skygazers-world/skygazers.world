@@ -66,9 +66,9 @@ export default function Home() {
         </div>
         <div className=' w-[80%] md:w-full max-w-[600px] text-[18px] leading-[28px] ml-10 md:ml-24 z-10'>
           <p className='mb-14 font-gatwickreg'>
-          Skygazers is concept of  <span className="font-gatwickbold">scifi-fantasy world-building</span> through <span className="font-gatwickbold">collaboration</span>.
+          Skygazers is an experiment of  <span className="font-gatwickbold">scifi-fantasy world-building</span> through <span className="font-gatwickbold">collaboration</span>.
           <br /><br />
-          The goal is to create and maintain a <span className="font-gatwickbold">fictional narrative</span> as a <span className="font-gatwickbold">community</span> with web3-technology.
+          The goal is to create and maintain a <span className="font-gatwickbold">fictional narrative</span> as a <span className="font-gatwickbold">community</span> using web3-technology.
           </p>
           <a href="" className="font-gatwickbold underline">Read the Skypaper</a>
         </div>

@@ -53,7 +53,7 @@ export default function Howitworks () {
       <Header />
       <div className="w-full flex flex-col items-start justify-start pt-16 md:pt-[110px] px-10 md:px-[120px]">
         <h1 className='max-w-[90%] md:max-w-[870px] mb-6 md:mb-11'>AS A COMMUNITY, WE WILL CREATE THE SKYGAZERS UNIVERSE.</h1>
-        <p className='max-w-[90%] md:max-w-[870px] font-gatwickreg text-[16px] md:text-[24px] leading-7 md:leading-[38px]'>Skygazers is a concept of scifi-fantasy world-building through collaboration. The goal is to create and maintain a fictional narrative as a community.</p>
+        <p className='max-w-[90%] md:max-w-[870px] font-gatwickreg text-[16px] md:text-[24px] leading-7 md:leading-[38px]'>Skygazers is an experiment of scifi-fantasy world-building through collaboration. The goal is to create and maintain a fictional narrative as a community using web3-technology.</p>
         <p className='max-w-[85%] md:max-w-[748px] mt-8 md:mt-10 mb-14 md:mb-11'>The base components of the universe are the main characters <span className='italic'>(Monk, Warrior-Princess, Scientist, Droid)</span> and the locations and situations. <br /><br />Out of these components, a collection of <a className='bodycopylink' href="#narrators">adventures</a> and <a className='bodycopylink' href="#lore">lore</a> will be created by a <a className='bodycopylink' href="#community">self-governing community</a>. The sum of all of this will be the world we know as Skygazers.</p>
         <div className='w-full flex flex-col md:flex-row items-start justify-start mb-[60px] md:mb-[90px]'>
             <a href="#overview" className='font-gatwickbold text-sgorange2 bodycopy underline mr-0 md:mr-8 mb-5 md:mb-0'>skip to overview</a>
