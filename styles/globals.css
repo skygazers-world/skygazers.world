@@ -25,7 +25,7 @@ src: url("../assets/fonts/PPGatwick-Bold.woff");
       @apply allbtns bodycopy py-3 px-8 rounded-[8px];
     }
     .middlerounded {
-      @apply allbtns text-[16px] md:text-[18px] py-4 px-16 rounded-[28px];
+      @apply allbtns text-[16px] md:text-[18px] py-3 px-10 rounded-[28px];
     }
     .bigrounded {
       @apply allbtns text-[16px] md:text-[18px] py-6 px-20 rounded-[39px];
