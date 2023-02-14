@@ -26,8 +26,8 @@ export default function Home() {
         </div>
     </div>
       <div className='w-full bg-contain bg-no-repeat bg-[url(/bg_on_white.png)] flex flex-col justify-center items-center pt-16 md:pt-24 pb-[50px]'>
-        <h1 className="w-[70%] max-w-[932px] text-transparent text-8xl bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
-        In a when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You, my friend, are <br className='hidden md:block' /> a skygazer now.</span>
+        <h1 className="w-[70%] max-w-[932px] text-transparent bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
+        In when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You, my friend, are <br className='hidden md:block' /> a skygazer now.</span>
         </h1>
       </div>
       <div className='w-full flex flex-col items-start justify-start lg:justify-center bg-gradient-to-b from-[#FFAB7B] to-[#F5BF97] overflow-y-visible overflow-x-scroll z-10'>
