@@ -25,9 +25,9 @@ export default function Home() {
         </div>
         </div>
     </div>
-      <div className='w-full bg-contain bg-no-repeat bg-[url(/bg_on_white.png)] flex flex-col justify-center items-center pt-16 md:pt-24 pb-[50px]'>
-        <h1 className="w-[70%] max-w-[932px] text-transparent bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
-        In when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You, my friend, are <br className='hidden md:block' /> a skygazer now.</span>
+      <div className='w-full bg-contain bg-no-repeat bg-[url(/bg_on_white.png)] flex flex-col justify-center items-center pt-12 md:pt-24 pb-[50px]'>
+        <h1 className="w-[80%] max-w-[932px] text-transparent bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
+        In a time when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You, my friend, are <br className='hidden md:block' /> a skygazer now.</span>
         </h1>
       </div>
       <div className='w-full flex flex-col items-start justify-start lg:justify-center bg-gradient-to-b from-[#FFAB7B] to-[#F5BF97] overflow-y-visible overflow-x-scroll z-10'>
@@ -60,12 +60,12 @@ export default function Home() {
       </div>
 
 
-      <div className='w-full bg-[#E7A885] flex flex-col-reverse md:flex-row items-start justify-start pt-28 pb-32 pr-10 relative overflow-hidden'>
+      <div className='w-full bg-[#E7A885] flex flex-col-reverse md:flex-row items-start justify-start pt-20 md:pt-28 pb-40 md:pb-32 pr-10 relative overflow-hidden'>
         <div className='min-w-[80%] md:min-w-[340px] w-[80%] md:w-[340px] mt-10 md:mt-0 absolute md:relative top-[420px] md:top-0'>
           <Icons.Logo fill='sgblueish' width='100%' opacity='0.1' height='100%' />
         </div>
         <div className=' w-[80%] md:w-full max-w-[600px] text-[18px] leading-[28px] ml-10 md:ml-24 z-10'>
-          <p className='mb-14 font-gatwickreg'>
+          <p className='mb-8 md:mb-14 font-gatwickreg'>
           Skygazers is an experiment of  <span className="font-gatwickbold">scifi-fantasy world-building</span> through <span className="font-gatwickbold">collaboration</span>.
           <br /><br />
           The goal is to create and maintain a <span className="font-gatwickbold">fictional narrative</span> as a <span className="font-gatwickbold">community</span> using web3-technology.
