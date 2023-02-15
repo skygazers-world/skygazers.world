@@ -25,8 +25,8 @@ export default function Home() {
         </div>
         </div>
     </div>
-      <div className='w-full bg-contain bg-no-repeat bg-[url(/bg_on_white.png)] flex flex-col justify-center items-center pt-16 md:pt-24 pb-[50px]'>
-        <h1 className="w-[70%] max-w-[932px] text-transparent text-8xl bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
+      <div className='w-full bg-contain bg-no-repeat bg-[url(/bg_on_white.png)] flex flex-col justify-center items-center pt-12 md:pt-24 pb-[50px]'>
+        <h1 className="w-[80%] max-w-[932px] text-transparent bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
         In a time when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You, my friend, are <br className='hidden md:block' /> a skygazer now.</span>
         </h1>
       </div>
@@ -60,53 +60,61 @@ export default function Home() {
       </div>
 
 
-      <div className='w-full bg-[#E7A885] flex flex-col-reverse md:flex-row items-start justify-start pt-28 pb-32 pr-10 relative overflow-hidden'>
+      <div className='w-full bg-[#E7A885] flex flex-col-reverse md:flex-row items-start justify-start pt-20 md:pt-28 pb-40 md:pb-32 pr-10 relative overflow-hidden'>
         <div className='min-w-[80%] md:min-w-[340px] w-[80%] md:w-[340px] mt-10 md:mt-0 absolute md:relative top-[420px] md:top-0'>
           <Icons.Logo fill='sgblueish' width='100%' opacity='0.1' height='100%' />
         </div>
         <div className=' w-[80%] md:w-full max-w-[600px] text-[18px] leading-[28px] ml-10 md:ml-24 z-10'>
-          <p className='mb-14 font-gatwickreg'>
+          <p className='mb-8 md:mb-14 font-gatwickreg'>
           Skygazers is an experiment of  <span className="font-gatwickbold">scifi-fantasy world-building</span> through <span className="font-gatwickbold">collaboration</span>.
           <br /><br />
-          The goal is to create and maintain a <span className="font-gatwickbold">fictional narrative</span> as a <span className="font-gatwickbold">community</span> using web3-technology.
+          We want to create and maintain a <span className="font-gatwickbold">fictional narrative</span> as a <span className="font-gatwickbold">community</span> using web3-technology.
           </p>
           <a href="" className="font-gatwickbold underline">Read the Skypaper</a>
         </div>
       </div>
 
+      <div className='w-full bg-white flex flex-col items-center justify-center pt-20 md:pt-28 pb-40 md:pb-32'>
+        <img className='w-[390px] max-w-[60%]' src='/Skygazers_WP_ill__4-onlyicons.png' alt='Only icons'/>
+        <div className='w-full max-w-[620px] text-[24px] leading-[38px] text-center'>
+          <p className='mb-8 md:mb-14 font-gatwickbold'>The goal is to create a scifi-universe, where the main characters go on adventures, and all components of the universe have rich backstories and internal relations.</p>
+          <p className='mb-8 md:mb-14 font-gatwickreg'>The way this experience will be designed is determined by its contributors.</p>
+        </div>
+      </div>
+
 
       <div className='w-full bg-gradient-to-b from-[#595250] to-sgdark pt-24 lg:pt-28 pb-36 px-0 flex flex-col items-center justify-center'>
-        <p className='text-sgyellow opacity-20 w-[80%] text-[20px] lg:text-[32px]  text-center font-gatwickreg lg:mb-2'>Find your role <br /> and join the cause.</p>
+        <p className='text-sgyellow opacity-20 w-[80%] text-[16px] lg:text-[28px]  text-center font-gatwickreg lg:mb-2'>Find your role and join the cause.</p>
         <div className='w-full px-0 flex flex-col lg:flex-row items-center lg:items-start justify-center'>
           <div className='w-4/5 lg:w-[45vw]  max-w-[450px] lg:mr-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
-            <h2 className='text-sgyellow'>JOIN THE</h2>
-            <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>NARRATORS</h1>
-            <p className='text-sgyellow text-[20px] mb-5'>Filled to the brim with inspiration, the narrator distils the best of his story-telling ideas into a breathtaking adventure.</p>
-            <Link href="howitworks/#narrators"><Icons.Narrator fill="#FFFDC3" width='70px' height='70px' /></Link>
-            <p className='text-white font-gatwickbold leading-[28px] mt-6'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> Story-telling, imagination, authorship
-            <br /> <br /> <span className='uppercase opacity-30 text-sgyellow'>Required:</span><br /> Skygazer-NFT</p>
-            <Link className='w-[70%] mt-12' href="howitworks/#narrators"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join narrators</button></Link>
+            <h2 className='text-sgyellow text-[12px]'>JOIN THE</h2>
+            <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-2'>NARRATORS</h1>
+            <p className='text-sgyellow text-[20px] mb-3'>Filled to the brim with inspiration, the narrator distils the best of his story-telling ideas into a breathtaking adventure.</p>
+            <Link href="howitworks/#narrators"><Icons.Narrator fill="#FFFDC3" width='60px' height='60px' /></Link>
+            <p className='text-white font-gatwickbold leading-[28px] mt-3'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> Story-telling, imagination, authorship</p>
+            <p className='text-white font-gatwickbold leading-[28px] mt-4'><span className='uppercase opacity-30 text-sgyellow'>Required:</span><br /> Skygazer-NFT</p>
+            <Link className='w-[70%] mt-8' href="howitworks/#narrators"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join narrators</button></Link>
             <Link className='mt-6 text-sgyellow font-gatwickbold underline' href="howitworks/#narrators">read more</Link>
           </div>
           <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
-            <h2 className='text-sgyellow'>JOIN THE</h2>
-            <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>LORIST</h1>
-            <p className='text-sgyellow text-[20px] mb-5'>Burdened with the heavy duty of weaving a web of facts around our fiction, the lorist ties everything together.</p>
-            <Link href="howitworks/#lore"><Icons.Lorist fill="#FFFDC3" width='70px' height='70px' /></Link>
-            <p className='text-white font-gatwickbold leading-[28px] mt-6'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> World-building, character-design, consistency
-            <br /> <br /> <span className='uppercase opacity-30 text-sgyellow'>Required:</span><br />DAO-membership (Timetokens)</p>
-            <Link className='w-[70%] mt-12' href="howitworks/#lore"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join lorist</button></Link>
+            <h2 className='text-sgyellow text-[12px]'>JOIN THE</h2>
+            <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-2'>LORIST</h1>
+            <p className='text-sgyellow text-[20px] mb-3'>Burdened with the heavy duty of weaving a web of facts around our fiction, the lorist ties everything together.</p>
+            <Link href="howitworks/#lore"><Icons.Lorist fill="#FFFDC3" width='60px' height='60px' /></Link>
+            <p className='text-white font-gatwickbold leading-[28px] mt-3'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> World-building, character-design, consistency</p>
+            <p className='text-white font-gatwickbold leading-[28px] mt-4'><span className='uppercase opacity-30 text-sgyellow'>Required:</span><br />DAO-membership (Timetokens)</p>
+            <Link className='w-[70%] mt-8' href="howitworks/#lore"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join lorist</button></Link>
             <Link className='mt-6 text-sgyellow font-gatwickbold underline' href="howitworks/#lore">read more</Link>
           </div>
         </div>
         <div className='w-4/5 lg:w-[50vw] max-w-[450px] lg:mt-[3vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
-          <h2 className='text-sgyellow'>JOIN THE</h2>
-          <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>MAKERS</h1>
-          <p className='text-sgyellow text-[20px] mb-5'>Solidifying written words, makers enrich the experience by building upon the adventures, adding value to them and to the universe as a whole.</p>
-          <Link href="howitworks/#lore"><Icons.Lorist fill="#FFFDC3" width='70px' height='70px' /></Link>
-          <p className='text-white font-gatwickbold leading-[28px] mt-6'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> commercial insight, entrepreneurship, persistence
-          <br /> <br /> <span className='uppercase opacity-30 text-sgyellow'>Required:</span><br />DAO-membership (Timetokens)</p>
-          <Link className='w-[70%] mt-12' href="howitworks/#makers"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join makers</button></Link>
+          <h2 className='text-sgyellow text-[12px]'>JOIN THE</h2>
+          <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-2'>MAKERS</h1>
+          <p className='text-sgyellow text-[20px] mb-3'>Solidifying written words, makers enrich the experience by building upon the adventures, adding value to them and to the universe as a whole.</p>
+          <Link href="howitworks/#lore"><Icons.Lorist fill="#FFFDC3" width='60px' height='60px' /></Link>
+          <p className='text-white font-gatwickbold leading-[28px] mt-3'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> commercial insight, entrepreneurship, persistence</p>
+          <p className='text-white font-gatwickbold leading-[28px] mt-4'><span className='uppercase opacity-30 text-sgyellow'>Required:</span><br />DAO-membership (Timetokens)</p>
+          <Link className='w-[70%] mt-8' href="howitworks/#makers"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join makers</button></Link>
           <Link className='mt-6 text-sgyellow font-gatwickbold underline' href="howitworks/#lore">read more</Link>
         </div>
       </div>
