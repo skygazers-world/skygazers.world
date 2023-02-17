@@ -6,6 +6,9 @@ import Header from '../components/shared/Header';
 
 
 export default function Howitworks () {
+  const skypaperlink = 'http://google.com';
+  const skyapplink = 'http://google.com';
+  
   const QuestionsNarrator = [
     {
       Q:"What is a Narrator?",
@@ -46,7 +49,6 @@ export default function Howitworks () {
       A:"Maker A2"
     },
   ];
-  const applink = "https://www.google.com/search?q=where+is+my+app&sxsrf=ALiCzsZUkC6EB2TOpbWijKk84Jn4wgWUnw%3A1670855609678&ei=uTuXY-WEKYiysAfk-6boBA&ved=0ahUKEwilxdeYpvT7AhUIGewKHeS9CU0Q4dUDCA8&uact=5&oq=where+is+my+app&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLAToKCAAQRxDWBBCwA0oECEEYAEoECEYYAFD-A1j-A2CKBmgBcAF4AIABU4gBU5IBATGYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp";
   
   return (
     <div className="w-full flex flex-col items-start justify-start">
@@ -87,7 +89,7 @@ export default function Howitworks () {
                 <span className='font-gatwickbold'>Required:</span> Skygazer-NFT
               </p>
             </div>
-            <Link href={applink}>
+            <Link href={skyapplink}>
             <div className='flex flex-col items-center md:items-end'>
                 <Icons.Narrator fill="#FF5C00" />
                 <p className='font-gatwickbold underline'>visit dapp</p>
@@ -107,10 +109,10 @@ export default function Howitworks () {
             </Collapser>
           </div>
           }
-          <div className='w-full flex flex-col md:flex-row items-start justify-start pt-10'>
-            <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>buy NFT</button></Link>
-            <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>visit dapp</button></Link>
-            <Link href={applink}><button className='smallyellowbtn'>read Skypaper</button></Link>
+          <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
+            <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+            <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
+            <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>
           </div>
         </div>
       </div>
@@ -141,7 +143,7 @@ export default function Howitworks () {
                 <span className='font-gatwickbold'>Required:</span> DAO-membership (Timetokens)
               </p>
             </div>
-            <Link href={applink}>
+            <Link href={skyapplink}>
             <div className='flex flex-col items-center md:items-end'>
                 <Icons.Lorist />
                 <p className='font-gatwickbold underline'>visit dapp</p>
@@ -161,10 +163,10 @@ export default function Howitworks () {
             </Collapser>
           </div>
           }
-          <div className='w-full flex flex-col md:flex-row items-start justify-start pt-10'>
-            <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>buy NFT</button></Link>
-            <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>visit dapp</button></Link>
-            <Link href={applink}><button className='smallyellowbtn'>read Skypaper</button></Link>
+          <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
+            <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+            <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
+            <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>
           </div>
         </div>
       </div>
@@ -248,9 +250,9 @@ export default function Howitworks () {
             </Collapser>
           </div>
           }
-          <div className='w-full flex flex-col md:flex-row items-start justify-start pt-10'>
-            <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>visit dapp</button></Link>
-            <Link href={applink}><button className='smallyellowbtn'>read Skypaper</button></Link>
+          <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
+            <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
+            <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>
           </div>
         </div>
       </div>
@@ -282,7 +284,7 @@ export default function Howitworks () {
                   <span className='font-gatwickbold'>Required:</span> DAO-membership (Timetokens)
                 </p>
               </div>
-              <Link href={applink}>
+              <Link href={skyapplink}>
               <div className='flex flex-col items-center md:items-end'>
                   <Icons.Lorist />
                   <p className='font-gatwickbold underline'>visit dapp</p>
@@ -302,10 +304,10 @@ export default function Howitworks () {
               </Collapser>
             </div>
             }
-            <div className='w-full flex flex-col md:flex-row items-start justify-start pt-10'>
-              <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={applink}><button className='smallyellowbtn md:mr-5 mb-3 md:mb-0'>visit dapp</button></Link>
-              <Link href={applink}><button className='smallyellowbtn'>read Skypaper</button></Link>
+            <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
+              <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>
             </div>
           </div>
         </div>
@@ -315,9 +317,9 @@ export default function Howitworks () {
           <div className='w-full px-0 flex flex-col lg:flex-row items-center lg:items-start justify-center'>
             <div className='w-4/5 lg:w-[45vw]  max-w-[450px] lg:mr-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
               <h2 className='text-sgyellow'>BECOME A</h2>
-              <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>BELIEVER</h1>
-              <p className='text-sgyellow text-[20px] mb-5'>Putting money where the mouth is, a believer buys into the community without actively taking up any other role.</p>
-              <Link className='w-[70%] mt-12' href={applink}><button className='middlerounded bg-sgyellow text-sgbodycopy'>buy NFT</button></Link>
+              <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-6'>BELIEVER</h1>
+              <p className='text-sgyellow text-[20px] mb-3'>Putting money where the mouth is, a believer buys into the community without actively taking up any other role.</p>
+              <Link className='w-[70%] mt-12' href={skyapplink}><button className='middlerounded bg-sgyellow text-sgbodycopy'>buy NFT</button></Link>
             </div>
             <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
               <h2 className='text-sgyellow'>BECOME A</h2>

@@ -22,7 +22,7 @@ src: url("../assets/fonts/PPGatwick-Bold.woff");
       @apply font-gatwickbold;
     }
     .smallbtn {
-      @apply allbtns bodycopy py-3 px-8 rounded-[8px];
+      @apply allbtns text-[14px] md:text-[14px] bodycopy py-2 px-6 rounded-[8px];
     }
     .middlerounded {
       @apply allbtns text-[16px] md:text-[18px] py-3 px-10 rounded-[28px];
