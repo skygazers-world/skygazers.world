@@ -5,22 +5,30 @@ import { Menu, Transition } from '@headlessui/react'
 
 export default function Footer () {
     const linksArray = [
-        {title:"Home",link:"/"},
-        {title:"How it works",link:"howitworks"},
-        {title:"Read Skypaper",link:"skypaper"},
-        {title:"Visit app",link:"skypaper"},
+        {title:"Home",link:"/",disabled:false},
+        {title:"How it works",link:"howitworks",disabled:false},
+        {title:"Read Skypaper",link:"skypaper",disabled:true},
+        {title:"Visit app",link:"skypaper",disabled:true},
+        {title:"About Skygazers",link:"about",disabled:false},
       ]
       const router = useRouter();
       const linkItems = linksArray.map((item,i) =>{
         return(
+            <>
+            {item.disabled?
+            <div className="font-gatwickreg text-sgyellow py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right">  
+            <span className="opacity-25">{item.title}</span> (soon!)
+            </div>
+            :
             <Link key={i} className="font-gatwickreg text-white hover:text-sgorange py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right" href={item.link}>
             <div className="flex flex-row">
               {router.pathname === ("/"+item.link) ? "• " : null}
               {(router.pathname === "/")&&(item.link==="/") ? "• " : null}
-    
               {item.title}
               </div>
-            </Link>)
+            </Link>
+            }
+            </>)
       })
 
     return (

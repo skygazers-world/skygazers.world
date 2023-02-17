@@ -131,23 +131,36 @@ export default function Home() {
       </div>
 
 
-      <div className='w-[full] pt-20 px-4 lg:pt-28 pb-24 md:px-0 flex flex-col items-center justify-center'>
-          <p className=' opacity-50 w-[80%] text-[20px] lg:text-[32px]  text-center font-gatwickreg mb-2'>Every role counts, big or small.</p>
-          <div className='w-full px-0 flex flex-col lg:flex-row items-center lg:items-start justify-center'>
-            <div className='w-4/5 lg:w-[45vw]  max-w-[450px] lg:mr-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-12'>
-              <h2 className=''>BECOME A</h2>
-              <h1 className='text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-4'>BELIEVER</h1>
-              <p className='text-[18px]'>Putting the money where the mouth is, a believer buys into the community without actively taking up any other role, and quitly watches as everything unfolds.</p>
-              <Link className='w-[70%] mt-8' href={skyapplink}><button className='middlerounded bg-sgorange text-sgbodycopy'>buy NFT</button></Link>
-            </div>
-            <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-8 md:py-12'>
-              <h2 className=''>BECOME A</h2>
-              <h1 className=' text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-4'>DAWDLER</h1>
-              <p className='text-[18px]'>Happy with little, the dawdler is a valued part of the community, hanging around by the metaphorical watercooler.</p>
-              <Link className='w-[70%] mt-12' href="howitworks/#lore"><button className='middlerounded bg-sgorange text-sgbodycopy'>join Discord</button></Link>
-            </div>
+      <div className='w-[full] pt-12 px-4 lg:pt-20 pb-16 lg:pb-24 md:px-0 flex flex-col items-center justify-center'>
+        {/* <p className=' opacity-50 w-[80%] text-[20px] lg:text-[32px]  text-center font-gatwickreg mb-2'>Every role counts, big or small.</p> */}
+        <div className='w-full px-0 flex flex-col lg:flex-row items-center lg:items-start justify-center'>
+          <div className='w-4/5 lg:w-[45vw]  max-w-[450px] lg:mr-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-12'>
+            <h2 className=''>BECOME A</h2>
+            <h1 className='text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-4'>BELIEVER</h1>
+            <p className='text-[18px]'>Putting the money where the mouth is, a believer buys into the community without actively taking up any other role, and quitly watches as everything unfolds.</p>
+            <Link className='w-[70%] mt-8' href={skyapplink}><button className='middlerounded bg-sgorange text-sgbodycopy'>buy NFT</button></Link>
+          </div>
+          <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-8 md:py-12'>
+            <h2 className=''>BECOME A</h2>
+            <h1 className=' text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-4'>DAWDLER</h1>
+            <p className='text-[18px]'>Happy with little, the dawdler is a valued part of the community, hanging around by the metaphorical watercooler.</p>
+            <Link className='w-[70%] mt-12' href="howitworks/#lore"><button className='middlerounded bg-sgorange text-sgbodycopy'>join Discord</button></Link>
           </div>
         </div>
+      </div>
+
+      <div className='w-[full] pt-24 lg:pt-[20px] flex flex-col lg:flex-row items-center justify-end bg-gradient-to-b from-[#DEAF8B] to-[#BF9380] lg:pl-[10vw]'>
+        <div className='lg:flex-1 flex flex-col items-center lg:items-start'>
+          <h2 className='text-sgyellow text-[16px] lg:text-[20px] leading-[24px] mb-[20px]'>Currently minting:</h2>
+          <h1 className='text-sgyellow text-[44px] lg:text-[56px]'>MONK</h1>
+          <p className='max-w-[80%] font-gatwickreg text-[16px] lg:text-[20px] text-center lg:text-left leading-[24px] lg:leading-[30px] mb-[40px] mt-[30px]'>Find Monk in your favourite setting and join the movement right now!</p>
+          <Link href={skyapplink+'/buy'}><button className='middlerounded text-sgyellow bg-sgdark'>browse Monks</button></Link>
+        </div>
+        <img className='w-[854px]' src='/currentlyminting.png' alt='currentlyminting'/>
+
+      
+      </div>
+
 
 
 
