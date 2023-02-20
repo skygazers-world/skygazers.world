@@ -2,6 +2,8 @@ import Icons from '../components/shared/Icons'
 import Link from 'next/link'
 import Footer from '../components/shared/Footer'
 import Header from '../components/shared/Header'
+import Currentlyminting from '../components/home/Currentlyminting'
+
 // import wp from '//wp.png';
 
 export default function Home() {
@@ -83,9 +85,9 @@ export default function Home() {
 
       <div className='w-full bg-white flex flex-col items-center justify-center pt-20 md:pt-24 pb-40 md:pb-32'>
         <img className='w-[390px] max-w-[60%]' src='/Skygazers_WP_ill__4-onlyicons.png' alt='Only icons'/>
-        <div className='w-[70%] md:w-full max-w-[620px] text-[24px] leading-[38px] text-center'>
-          <p className='mb-8 md:mb-14 font-gatwickbold'>The goal is to create a scifi-universe, where the main characters go on adventures, and all components of the universe have rich backstories and internal relations.</p>
-          <p className='mb-8 md:mb-16 text-[18px] md:text-[20px] leading-[24px] md:leading-[28px]'>The design of this experience is determined by its contributors.</p>
+        <div className='w-[70%] md:w-full max-w-[640px] text-[24px] leading-[38px] text-center'>
+          <p className='mb-8 md:mb-14 font-gatwickbold'>The goal is to create a rich scifi universe, where main characters go on adventures, have deep and complex personalities, and where all components have elaborate backstories and internal relations.</p>
+          <p className='mb-8 md:mb-16 text-[18px] md:text-[20px] leading-[24px] md:leading-[28px]'>The design of how this is experienced is determined by its contributors.</p>
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mb-0 md:mb-8'>
           <Link className="font-gatwickbold underline text-sgorange2 mr-0 md:mr-4 mb-4 md:mb-0" href='/howitworks'>See how it works</Link>
@@ -132,39 +134,25 @@ export default function Home() {
 
 
       <div className='w-[full] pt-12 px-4 lg:pt-20 pb-16 lg:pb-24 md:px-0 flex flex-col items-center justify-center'>
-        {/* <p className=' opacity-50 w-[80%] text-[20px] lg:text-[32px]  text-center font-gatwickreg mb-2'>Every role counts, big or small.</p> */}
+        <p className=' opacity-50 w-[80%] text-[18px] md:text-[20px] leading-[24px] md:leading-[28px]  text-center font-gatwickreg mb-2'>Every role counts, big or small.</p>
         <div className='w-full px-0 flex flex-col lg:flex-row items-center lg:items-start justify-center'>
           <div className='w-4/5 lg:w-[45vw]  max-w-[450px] lg:mr-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-12'>
-            <h2 className=''>BECOME A</h2>
+            <h2 className=''>THE</h2>
             <h1 className='text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-4'>BELIEVER</h1>
             <p className='text-[18px]'>Putting the money where the mouth is, a believer buys into the community without actively taking up any other role, and quitly watches as everything unfolds.</p>
-            <Link className='w-[70%] mt-8' href={skyapplink}><button className='middlerounded bg-sgorange text-sgbodycopy'>buy NFT</button></Link>
+            {/* <Link className='w-[70%]' href={skyapplink}><button className='middlerounded bg-sgorange text-sgbodycopy mt-8' disabled>buy NFT</button></Link> */}
+            <button className='middlerounded bg-sgorange text-sgbodycopy mt-8 opacity-25' disabled>buy NFT</button>
           </div>
           <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-8 md:py-12'>
-            <h2 className=''>BECOME A</h2>
-            <h1 className=' text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-4'>DAWDLER</h1>
-            <p className='text-[18px]'>Happy with little, the dawdler is a valued part of the community, hanging around by the metaphorical watercooler.</p>
-            <Link className='w-[70%] mt-12' href="howitworks/#lore"><button className='middlerounded bg-sgorange text-sgbodycopy'>join Discord</button></Link>
+            <h2 className=''>The</h2>
+            <h1 className=' text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-4'>ENTHUSIAST</h1>
+            <p className='text-[18px]'>Happy with little, the enthusiast is a valued part of the community, hanging around by the metaphorical watercooler.</p>
+            <Link className='w-[70%] mt-12' href="https://discord.gg/jQbMvzbV"><button className='middlerounded bg-sgorange text-sgbodycopy'>join Discord</button></Link>
           </div>
         </div>
       </div>
 
-      <div className='w-[full] pt-24 lg:pt-[20px] flex flex-col lg:flex-row items-center justify-end bg-gradient-to-b from-[#DEAF8B] to-[#BF9380] lg:pl-[10vw]'>
-        <div className='lg:flex-1 flex flex-col items-center lg:items-start'>
-          <h2 className='text-sgyellow text-[16px] lg:text-[20px] leading-[24px] mb-[20px]'>Currently minting:</h2>
-          <h1 className='text-sgyellow text-[44px] lg:text-[56px]'>MONK</h1>
-          <p className='max-w-[80%] font-gatwickreg text-[16px] lg:text-[20px] text-center lg:text-left leading-[24px] lg:leading-[30px] mb-[40px] mt-[30px]'>Find Monk in your favourite setting and join the movement right now!</p>
-          <Link href={skyapplink+'/buy'}><button className='middlerounded text-sgyellow bg-sgdark'>browse Monks</button></Link>
-        </div>
-        <img className='w-[854px]' src='/currentlyminting.png' alt='currentlyminting'/>
-
-      
-      </div>
-
-
-
-
-
+      <Currentlyminting phase="pre" character={"Monk"} skyapplink={skyapplink} />
     </div>
   )
 }

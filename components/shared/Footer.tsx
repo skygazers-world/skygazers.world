@@ -16,6 +16,7 @@ export default function Footer () {
         return(
             <>
             {item.disabled?
+            
             <div className="font-gatwickreg text-sgyellow py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right">  
             <span className="opacity-25">{item.title}</span> (soon!)
             </div>
@@ -44,9 +45,14 @@ export default function Footer () {
                 <Link href="https://github.com/skygazers-world" className="mr-5 fill-white hover:fill-sgorange">
                     <Icons.Github width='22px' height="21.29" fill="inherit"/>
                 </Link>
+                <Link href="https://twitter.com/Skygazers_world" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.Twitter width='100%' height='100%' fill="inherit" /></Link>
+                <Link href="https://www.instagram.com/" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.IG width='100%' height='100%' fill="inherit" /></Link>
+                <Link href="https://lenster.xyz/u/bennisan" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.Lenster width='100%' height='100%' fill="inherit" /></Link>
+
                 <Link href="">
                     <button className="bg-white hover:bg-sgorange text-[#595250] font-bold py-1 px-3 rounded text-sm ml-5">visit app</button>
                 </Link>
+
             </div>
             <div className='flex-none lg:flex-1'></div>
             <div className="flex w-full lg:w-auto flex-col items-center lg:items-end">

@@ -12,22 +12,38 @@ export default function Howitworks () {
   const QuestionsNarrator = [
     {
       Q:"What is a Narrator?",
-      A:"I just told you, stupid!"
+      A:"In the context Skygazers, a Narrator is someone who owns an Skygazers-NFT and actively spends time telling its story."
     },
     {
-      Q:"But really, what is a Narrator?",
-      A:"I swear to God..."
+      Q:"How do I become a Narrator?",
+      A:"Aqcuire a Skygazers-NFT through the Skygazer-Dapp or via a secondary market, and write out the story that you feel belongs to this NFT. If you want your story to be part of the collection, submit it as an Adventure. In our eyes, you become a Narrator the moment you type your first letter."
     },  
+    {
+      Q:"What is the collection of Adventures and how can I get my story accepted?",
+      A:"The collection of Adventures is the collection of stories that are officially part of the Skygazers-universe. This collection is curated by the Skygazers-DAO. If a story is submitted, the Skygazers-DAO votes on it being accepted or rejected to the collection. If the story is accepted, we call it an Adventure, and is therefore now officially part of the Skygazers-universe."
+    },
+    {
+      Q:"Why would I want my story in the collection of Adventure?",
+      A:"The collection of Adventures is open to the public, everyone can read the Adventures as part of the Skygazers experience. Also, creating a Derived Product by the Skygazers-DAO can only happen based on official Adventures that belong to the collection. So in other words: if a member of the Skygazers-DAO wants to create a comic of your story, and request funds to do so from the Skygazers-DAO, your story has to be an Adventure, belonging to the collection."
+    },  
+    {
+      Q:"What if I buy an NFT that already has a story or Adventure attached to it?",
+      A:"The owner of the NFT is also the absolute owner of the story or Adventure. This means that if you buy an NFT that already has a story or Adventure attached to it, that you can decide what to do with it. You can erase it and start from scratch, you can edit it a bit or give it a new plot twist... it's all up to you!"
+    }
   ];
   const QuestionsLorist = [
     {
       Q:"What is a Lorist?",
-      A:"I just told you, stupid!"
+      A:"In the context Skygazers, a Lorist is someone who owns Timetokens, and actively contributes to the Skygazers Lore by submitting Lore Changes."
     },
     {
-      Q:"But really, what is a Narrator?",
-      A:"I swear to God..."
-    },  
+      Q:"What is a Lore Change?",
+      A:"A Lore Change is an edit made to the lore document. Both editing an existing piece of adding a new one can be Lore Changes. For your change to be accepted to the official Skygazers Lore, you will have to submit it to the Skygazers-DAO so they can vote on it."
+    },
+    {
+      Q:"What are the subjects and topics of the Skygazers Lore?",
+      A:"In theory, anything can be a subject or a topic in the Skygazers Lore. However, it will be more likely that your Lore Change is accepted is your writing is in line with the other existing Lore."
+    },
   ];
   const QuestionsGeneral = [
     {
@@ -237,7 +253,7 @@ export default function Howitworks () {
           </div>
         </div>
         <div className='w-full flex flex-col items-start justify-start px-10 md:px-[120px] py-10 md:py-[50px] '>
-          {QuestionsGeneral &&
+          {/* {QuestionsGeneral &&
           <div className='w-full max-w-[890px]'>
             <Collapser
               title="General FAQs"
@@ -249,7 +265,7 @@ export default function Howitworks () {
               </div>
             </Collapser>
           </div>
-          }
+          } */}
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
             <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
             <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>
@@ -316,15 +332,15 @@ export default function Howitworks () {
           <p className='text-sgyellow opacity-20 w-[80%] text-[20px] lg:text-[32px]  text-center font-gatwickreg lg:mb-2'>Every role counts, <br /> big or small.</p>
           <div className='w-full px-0 flex flex-col lg:flex-row items-center lg:items-start justify-center'>
             <div className='w-4/5 lg:w-[45vw]  max-w-[450px] lg:mr-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
-              <h2 className='text-sgyellow'>BECOME A</h2>
+              <h2 className='text-sgyellow'>THE</h2>
               <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-6'>BELIEVER</h1>
               <p className='text-sgyellow text-[20px] mb-3'>Putting money where the mouth is, a believer buys into the community without actively taking up any other role.</p>
               <Link className='w-[70%] mt-12' href={skyapplink}><button className='middlerounded bg-sgyellow text-sgbodycopy'>buy NFT</button></Link>
             </div>
             <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
-              <h2 className='text-sgyellow'>BECOME A</h2>
-              <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>DAWDLER</h1>
-              <p className='text-sgyellow text-[20px] mb-5'>Happy with little, the dawdler is a valued part of the community, hanging around by the metaphorical watercooler.</p>
+              <h2 className='text-sgyellow'>THE</h2>
+              <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>ENTHUSIAST</h1>
+              <p className='text-sgyellow text-[20px] mb-5'>Happy with little, the enthusiast is a valued part of the community, hanging around by the metaphorical watercooler.</p>
               <Link className='w-[70%] mt-12' href="howitworks/#lore"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join Discord</button></Link>
             </div>
           </div>
