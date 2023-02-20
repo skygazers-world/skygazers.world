@@ -21,8 +21,9 @@ export default function Home() {
           <Icons.Github width='25px' fill="#faf3f0"/>
         </Link>
         <div className='flex-1 sm:flex-none'></div>
-        <Link href={skyapplink}><button className="bg-sgbrown hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5">visit app</button>
-        </Link>
+        {/* <Link href={skyapplink}><button className="bg-sgbrown hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5">visit app</button>
+        </Link> */}
+        <button disabled className="bg-sgbrown hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5 opacity-25">visit app</button>
         </div>
       <div className='w-full h-full flex flex-col items-end sm:items-end justify-start sm:justify-start '>
         <div className='w-[250px] md:w-[300px] lg:w-[360px] mt-10 lg:mt-32 mr-8 md:mr-16 xl:mr-32'>
