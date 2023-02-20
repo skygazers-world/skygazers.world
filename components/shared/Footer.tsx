@@ -5,22 +5,31 @@ import { Menu, Transition } from '@headlessui/react'
 
 export default function Footer () {
     const linksArray = [
-        {title:"Home",link:"/"},
-        {title:"How it works",link:"howitworks"},
-        {title:"Read Skypaper",link:"skypaper"},
-        {title:"Visit app",link:"skypaper"},
+        {title:"Home",link:"/",disabled:false},
+        {title:"How it works",link:"howitworks",disabled:false},
+        {title:"Read Skypaper",link:"skypaper",disabled:true},
+        {title:"Visit app",link:"skypaper",disabled:true},
+        {title:"About Skygazers",link:"about",disabled:false},
       ]
       const router = useRouter();
       const linkItems = linksArray.map((item,i) =>{
         return(
+            <>
+            {item.disabled?
+            
+            <div className="font-gatwickreg text-sgyellow py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right">  
+            <span className="opacity-25">{item.title}</span> (soon!)
+            </div>
+            :
             <Link key={i} className="font-gatwickreg text-white hover:text-sgorange py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right" href={item.link}>
             <div className="flex flex-row">
               {router.pathname === ("/"+item.link) ? "• " : null}
               {(router.pathname === "/")&&(item.link==="/") ? "• " : null}
-    
               {item.title}
               </div>
-            </Link>)
+            </Link>
+            }
+            </>)
       })
 
     return (
@@ -36,9 +45,14 @@ export default function Footer () {
                 <Link href="https://github.com/skygazers-world" className="mr-5 fill-white hover:fill-sgorange">
                     <Icons.Github width='22px' height="21.29" fill="inherit"/>
                 </Link>
+                <Link href="https://twitter.com/Skygazers_world" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.Twitter width='100%' height='100%' fill="inherit" /></Link>
+                <Link href="https://www.instagram.com/" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.IG width='100%' height='100%' fill="inherit" /></Link>
+                <Link href="https://lenster.xyz/u/bennisan" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.Lenster width='100%' height='100%' fill="inherit" /></Link>
+
                 <Link href="">
                     <button className="bg-white hover:bg-sgorange text-[#595250] font-bold py-1 px-3 rounded text-sm ml-5">visit app</button>
                 </Link>
+
             </div>
             <div className='flex-none lg:flex-1'></div>
             <div className="flex w-full lg:w-auto flex-col items-center lg:items-end">

@@ -7,15 +7,23 @@ import { useRouter } from 'next/router';
 
 export default function Header () {
   const linksArray = [
-    {title:"Home",link:"/"},
-    {title:"How it works",link:"howitworks"},
-    {title:"Read Skypaper",link:"skypaper"},
-    {title:"Visit app",link:"skypaper"},
+    {title:"Home",link:"/",disabled:false},
+    {title:"How it works",link:"howitworks",disabled:false},
+    {title:"Read Skypaper",link:"skypaper",disabled:true},
+    {title:"Visit app",link:"skypaper",disabled:true},
+    {title:"About Skygazers",link:"about",disabled:false},
+    {title:"Blog",link:"https://blog.skygazers.world/",disabled:false},
+
   ]
   const router = useRouter();
 
   const linkItems = linksArray.map((item,i) =>{
     return(
+      <>
+      {item.disabled?
+        <div className="font-gatwickreg opacity-25 text-white py-4 text-center text-[14px] border-b border-[rgba(255,255,255,0.25)] pl-6">
+         {item.title}</div>
+      :
       <Menu.Item key={i}>
         <Link className="font-gatwickreg text-white hover:text-sgbrown py-4 text-center text-[14px] border-b border-[rgba(255,255,255,0.25)] pl-6" href={item.link}>
         <div className="flex flex-row">
@@ -25,7 +33,10 @@ export default function Header () {
           {item.title}
           </div>
           </Link>
-     </Menu.Item>)
+     </Menu.Item>
+      }
+     </>
+     )
   })
 
     return (
