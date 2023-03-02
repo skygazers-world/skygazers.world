@@ -80,7 +80,8 @@ export default function Home() {
           <br /><br />
           We want to create and maintain a <span className="font-bold">fictional narrative</span> as a <span className="font-bold">community</span> using web3-technology.
           </p>
-          <a href={skypaperlink} className="font-gatwickbold underline text-[16px]">Read the Skypaper</a>
+          {/* <a href={skypaperlink} className="font-gatwickbold underline text-[16px]">Read the Skypaper</a> */}
+          <p className="font-gatwickbold  text-[16px]"><span className={"opacity-50 underline"}>Read the Skypaper</span> (soon!)</p>
         </div>
       </div>
 
@@ -92,7 +93,9 @@ export default function Home() {
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mb-0 md:mb-8'>
           <Link className="font-gatwickbold underline text-sgorange2 mr-0 md:mr-4 mb-4 md:mb-0" href='/howitworks'>See how it works</Link>
-          <a href={skypaperlink} className="font-gatwickbold underline text-sgorange2">Read the Skypaper</a>
+
+          {/* <a href={skypaperlink} className="font-gatwickbold underline text-sgorange2">Read the Skypaper</a> */}
+ <p className="font-gatwickbold  text-[16px] text-sgorange2"><span className={"opacity-50 underline"}>Read the Skypaper</span> (soon!)</p>
           </div>
       </div>
 
