@@ -22,7 +22,7 @@ export default function About () {
             {/* <a href="" className='font-gatwickbold text-sgorange2 bodycopy underline mr-0 md:mr-8 mb-5 md:mb-0'>Read the Skypaper</a> */}
             <a href="https://blog.skygazers.world/" className='font-gatwickbold text-sgorange2 bodycopy underline'>Read our blog</a>
             <Link href="https://twitter.com/Skygazers_world" className='w-[20px] h-[20px] mr-[20px] ml-[35px]'><Icons.Twitter width='100%' height='100%' fill="#FF5C00" /></Link>
-            <Link href="https://www.instagram.com/" className='w-[20px] h-[20px] mr-[20px]'><Icons.IG width='100%' height='100%' fill="#FF5C00" /></Link>
+            {/* <Link href="https://www.instagram.com/" className='w-[20px] h-[20px] mr-[20px]'><Icons.IG width='100%' height='100%' fill="#FF5C00" /></Link> */}
             <Link href="https://lenster.xyz/u/bennisan" className='w-[20px] h-[20px]'><Icons.Lenster width='100%' height='100%' fill="#FF5C00" /></Link>
         </div>
       </div>

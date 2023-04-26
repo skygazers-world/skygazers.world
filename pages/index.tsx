@@ -7,7 +7,7 @@ import Currentlyminting from '../components/home/Currentlyminting'
 // import wp from '//wp.png';
 
 export default function Home() {
-  const skypaperlink = 'http://google.com';
+  const skypaperlink = 'https://hackmd.io/@3LPbX2EzR_CWxkXCzlRagg/HkeanZJT_c';
   const skyapplink = 'http://google.com';
 
   return (
@@ -80,7 +80,7 @@ export default function Home() {
           <br /><br />
           We want to create and maintain a <span className="font-bold">fictional narrative</span> as a <span className="font-bold">community</span> using web3-technology.
           </p>
-          <a href={skypaperlink} className="font-gatwickbold underline text-[16px]">Read the Skypaper</a>
+          <a href={skypaperlink} target="_blank" rel="noopener noreferrer" className="font-gatwickbold underline text-[16px]">Read the Skypaper</a>
         </div>
       </div>
 
@@ -92,7 +92,8 @@ export default function Home() {
         </div>
         <div className='flex flex-col md:flex-row justify-center items-center mb-0 md:mb-8'>
           <Link className="font-gatwickbold underline text-sgorange2 mr-0 md:mr-4 mb-4 md:mb-0" href='/howitworks'>See how it works</Link>
-          <a href={skypaperlink} className="font-gatwickbold underline text-sgorange2">Read the Skypaper</a>
+
+          <a href={skypaperlink} target="_blank" rel="noopener noreferrer" className="font-gatwickbold underline text-sgorange2">Read the Skypaper</a>
           </div>
       </div>
 
@@ -115,8 +116,8 @@ export default function Home() {
             <h2 className='text-sgyellow text-[12px]'>JOIN THE</h2>
             <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-2'>LORIST</h1>
             <p className='text-sgyellow text-[20px] mb-3'>Burdened with the heavy duty of weaving a web of facts around our fiction, the lorist ties everything together.</p>
-            <p className='text-white font-gatwickbold leading-[28px] mt-3'><span className='uppercase opacity-30 text-sgyellow'>Skills:</span><br /> World-building, character-design, consistency</p>
-            <p className='text-white font-gatwickbold leading-[28px] mt-4'><span className='uppercase opacity-30 text-sgyellow'>Required:</span><br />DAO-membership (Timetokens)</p>
+            <p className='text-white text-[20px] mt-3'><span className='uppercase opacity-30 font-gatwickbold text-[16px] text-sgyellow'>Skills:</span><br /> World-building, character-design, consistency</p>
+            <p className='text-white  text-[20px] mt-4'><span className='uppercase opacity-30 font-gatwickbold text-[16px] text-sgyellow'>Required:</span><br />DAO-membership (Timetokens)</p>
             <Link className='w-[70%] mt-8' href="howitworks/#lore"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join lorist</button></Link>
             <Link className='mt-6 text-sgyellow font-gatwickbold underline' href="howitworks/#lore">read more</Link>
           </div>

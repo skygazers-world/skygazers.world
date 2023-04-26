@@ -22,7 +22,7 @@ export default function Currentlyminting ({phase, skyapplink, character}) {
                 <p className='max-w-[80%] font-gatwickbold text-[16px] text-center lg:text-left leading-[24px] mb-[30px] mt-[10px]'>Gaze at the social channels for more information! </p>
                 <div className='w-full flex flex-row justify-center items-center lg:justify-start mb-[50px]'>
                     <Link href="https://twitter.com/Skygazers_world" className='w-[26px] h-[26px] mr-[20px]'><Icons.Twitter width='100%' height='100%' fill="#59342B" /></Link>
-                    <Link href="https://www.instagram.com/" className='w-[26px] h-[26px] mr-[20px]'><Icons.IG width='100%' height='100%' fill="#59342B" /></Link>
+                    {/* <Link href="https://www.instagram.com/" className='w-[26px] h-[26px] mr-[20px]'><Icons.IG width='100%' height='100%' fill="#59342B" /></Link> */}
                     <Link href="https://lenster.xyz/u/bennisan" className='w-[26px] h-[26px]'><Icons.Lenster width='100%' height='100%' fill="#59342B" /></Link>
                 </div>
                 {/* <Link href={skyapplink+'/buy'}><button className='middlerounded text-sgyellow bg-sgdark'>browse {character}</button></Link> */}

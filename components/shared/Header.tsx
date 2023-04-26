@@ -9,7 +9,7 @@ export default function Header () {
   const linksArray = [
     {title:"Home",link:"/",disabled:false},
     {title:"How it works",link:"howitworks",disabled:false},
-    {title:"Read Skypaper",link:"skypaper",disabled:true},
+    {title:"Read Skypaper",link:"https://hackmd.io/@3LPbX2EzR_CWxkXCzlRagg/HkeanZJT_c",disabled:false},
     {title:"Visit app",link:"skypaper",disabled:true},
     {title:"About Skygazers",link:"about",disabled:false},
     {title:"Blog",link:"https://blog.skygazers.world/",disabled:false},
