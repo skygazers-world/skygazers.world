@@ -7,7 +7,7 @@ export default function Footer () {
     const linksArray = [
         {title:"Home",link:"/",disabled:false},
         {title:"How it works",link:"howitworks",disabled:false},
-        {title:"Read Skypaper",link:"skypaper",disabled:true},
+        {title:"Read Skypaper",link:"https://hackmd.io/@3LPbX2EzR_CWxkXCzlRagg/HkeanZJT_c",disabled:false},
         {title:"Visit app",link:"skypaper",disabled:true},
         {title:"About Skygazers",link:"about",disabled:false},
       ]
@@ -46,7 +46,7 @@ export default function Footer () {
                     <Icons.Github width='22px' height="21.29" fill="inherit"/>
                 </Link>
                 <Link href="https://twitter.com/Skygazers_world" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.Twitter width='100%' height='100%' fill="inherit" /></Link>
-                <Link href="https://www.instagram.com/" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.IG width='100%' height='100%' fill="inherit" /></Link>
+                {/* <Link href="https://www.instagram.com/" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.IG width='100%' height='100%' fill="inherit" /></Link> */}
                 <Link href="https://lenster.xyz/u/bennisan" className='w-[22px] h-[22px] mr-5 fill-white hover:fill-sgorange'><Icons.Lenster width='100%' height='100%' fill="inherit" /></Link>
 
                 {/* <Link href=""> */}

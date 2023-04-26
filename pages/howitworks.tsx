@@ -6,7 +6,7 @@ import Header from '../components/shared/Header';
 
 
 export default function Howitworks () {
-  const skypaperlink = 'http://google.com';
+  const skypaperlink = 'https://hackmd.io/@3LPbX2EzR_CWxkXCzlRagg/HkeanZJT_c';
   const skyapplink = 'http://google.com';
   
   const QuestionsNarrator = [
@@ -34,7 +34,7 @@ export default function Howitworks () {
   const QuestionsLorist = [
     {
       Q:"What is a Lorist?",
-      A:"In the context Skygazers, a Lorist is someone who owns Timetokens, and actively contributes to the Skygazers Lore by submitting Lore Changes."
+      A:"In the context Skygazers, a Lorist is someone who owns Skygazer Timetokens (STT), and actively contributes to the Skygazers Lore by submitting Lore Changes."
     },
     {
       Q:"What is a Lore Change?",
@@ -57,12 +57,12 @@ export default function Howitworks () {
   ];
   const QuestionsMaker = [
     {
-      Q:"Maker Q1?",
-      A:"Maker A1"
+      Q:"What is a Maker?",
+      A:"In the context Skygazers, a maker is someone who owns Skygazer Timetokens (STT) and who creates a Derived Product Proposal (DPP). Once accepted by the Skygazers-DAO, the Maker is the one responsible for seeing that specific project to a good end, producing and managing the Derived product."
     },
     {
-      Q:"Maker Q2?",
-      A:"Maker A2"
+      Q:"Can anyone become a Maker?",
+      A:"If you own Skygazer Timetokens (STT), you are a member of the Skygazers-DAO and therefore can submit a Derived Product Proposal (DPP). Once your DPP is accepted, and you start executing it, you are considered a Maker in the Skygazers-DAO"
     },
   ];
   
@@ -75,9 +75,7 @@ export default function Howitworks () {
         <p className='max-w-[85%] md:max-w-[748px] mt-8 md:mt-10 mb-14 md:mb-11'>The base components of the universe are the main characters <span className='italic'>(Monk, Warrior-Princess, Scientist, Droid)</span> the locations, and the situations. <br /><br />Out of these components, a collection of <a className='bodycopylink' href="#narrators">adventures</a> and <a className='bodycopylink' href="#lore">lore</a> will be created by a <a className='bodycopylink' href="#community">self-governing community</a>. The sum of all of this will be the world we know as Skygazers.</p>
         <div className='w-full flex flex-col md:flex-row items-start justify-start mb-[60px] md:mb-[90px]'>
             <a href="#overview" className='font-gatwickbold text-sgorange2 bodycopy underline mr-0 md:mr-8 mb-5 md:mb-0'>skip to overview</a>
-            {/* <a href="" className='font-gatwickbold text-sgorange2 bodycopy underline'>read the Skypaper</a> */}
-            <p className='font-gatwickbold text-sgorange2 bodycopy '><span className='underline opacity-30'>read the Skypaper</span> (soon!)</p>
-
+            <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='font-gatwickbold text-sgorange2 bodycopy underline'>read the Skypaper</a>
         </div>
       </div>
 
@@ -133,11 +131,10 @@ export default function Howitworks () {
           }
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
               {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>*/}
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>*/}
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
-              <button className='smallyellowbtn opacity-25'>read Skypaper</button>
+              <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
         </div>
       </div>
@@ -155,7 +152,7 @@ export default function Howitworks () {
           </h1>
           <p className='font-gatwickbold mt-8 mb-3'>As a lorist... </p>
           <ul className='list-disc list-outside pl-3 mb-8'>
-            <li className='mb-2 pl-2'>you own Timetokens, which makes you a member of the Skygazers-DAO.</li>
+            <li className='mb-2 pl-2'>you own Skygazer Timetokens (STT), which makes you a member of the Skygazers-DAO.</li>
             <li className='mb-2 pl-2'>you are fascinated by the totality of the Skygazers universe: background stories, names, characteristics, etc.</li>
             <li className='mb-2 pl-2'>you actively vote on proposals about the lore.</li>
             <li className='mb-2 pl-2'>you may create a proposal to edit a piece of lore or add one.</li>
@@ -165,7 +162,7 @@ export default function Howitworks () {
               <p className='font-gatwickbold uppercase text-sgbodycopy opacity-40 text-[18px] md:text-[20px] mb-2'>beCOME a Lorist</p>
               <p className='font-gatwickreg leading-6 md:leading-8 bodycopy'>
                 <span className='font-gatwickbold'>Skills:</span> World-building, character-design, consistency<br />
-                <span className='font-gatwickbold'>Required:</span> DAO-membership (Timetokens)
+                <span className='font-gatwickbold'>Required:</span> DAO-membership (Skygazer Timetokens (STT))
               </p>
             </div>
             {/* <Link href={skyapplink}>
@@ -194,11 +191,10 @@ export default function Howitworks () {
           }
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
               {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>*/}
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>*/}
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
-              <button className='smallyellowbtn opacity-25'>read Skypaper</button>
+              <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
         </div>
       </div>
@@ -286,7 +282,7 @@ export default function Howitworks () {
             {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
             <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link> */}
             <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
-            <button disabled className='smallyellowbtn opacity-25'>read Skypaper</button>
+            <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
         </div>
       </div>
@@ -303,7 +299,7 @@ export default function Howitworks () {
             </h1>
             <p className='font-gatwickbold mt-8 mb-3'>As a maker... </p>
             <ul className='list-disc list-outside pl-3 mb-8'>
-              <li className='mb-2 pl-2'>you own Timetokens, which makes you a member of the Skygazers-DAO.</li>
+              <li className='mb-2 pl-2'>you own Skygazer Timetokens (STT), which makes you a member of the Skygazers-DAO.</li>
               <li className='mb-2 pl-2'>you pick an adventure from the collection that inspires you to create a derived product.</li>
               <li className='mb-2 pl-2'>you create a DPP (derived product proposal).</li>
               <li className='mb-2 pl-2'>you received the funds requested in your DPP.</li>
@@ -315,7 +311,7 @@ export default function Howitworks () {
                 <p className='font-gatwickbold uppercase text-sgbodycopy opacity-40 text-[18px] md:text-[20px] mb-2'>beCOME a Maker</p>
                 <p className='font-gatwickreg leading-6 md:leading-8 bodycopy'>
                   <span className='font-gatwickbold'>Skills:</span> World-building, character-design, consistency<br />
-                  <span className='font-gatwickbold'>Required:</span> DAO-membership (Timetokens)
+                  <span className='font-gatwickbold'>Required:</span> DAO-membership (Skygazer Timetokens (STT))
                 </p>
               </div>
               {/* <Link href={skyapplink}>
@@ -344,11 +340,10 @@ export default function Howitworks () {
             }
             <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
               {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link>*/}
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>*/}
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
-              <button className='smallyellowbtn opacity-25'>read Skypaper</button>
+              <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
             </div>
           </div>
         </div>
