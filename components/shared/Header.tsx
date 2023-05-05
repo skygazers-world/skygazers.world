@@ -19,13 +19,13 @@ export default function Header () {
 
   const linkItems = linksArray.map((item,i) =>{
     return(
-      <>
+      <div className="font-gatwickreg  text-white py-4 text-center text-[14px] border-b border-[rgba(255,255,255,0.25)] pl-6" key={i}>
       {item.disabled?
-        <div className="font-gatwickreg opacity-25 text-white py-4 text-center text-[14px] border-b border-[rgba(255,255,255,0.25)] pl-6">
+        <div className="opacity-25">
          {item.title}</div>
       :
-      <Menu.Item key={i}>
-        <Link className="font-gatwickreg text-white hover:text-sgbrown py-4 text-center text-[14px] border-b border-[rgba(255,255,255,0.25)] pl-6" href={item.link}>
+      <Menu.Item>
+        <Link className="font-gatwickreg opacity-100 text-white hover:text-sgbrown py-4 text-center text-[14px] border-b border-[rgba(255,255,255,0.25)] pl-6" href={item.link}>
         <div className="flex flex-row">
           {router.pathname === ("/"+item.link) ? "• " : null}
           {(router.pathname === "/")&&(item.link==="/") ? "• " : null}
@@ -35,7 +35,7 @@ export default function Header () {
           </Link>
      </Menu.Item>
       }
-     </>
+     </div>
      )
   })
 

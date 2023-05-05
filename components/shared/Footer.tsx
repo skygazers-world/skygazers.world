@@ -14,14 +14,14 @@ export default function Footer () {
       const router = useRouter();
       const linkItems = linksArray.map((item,i) =>{
         return(
-            <>
+            <div key={i}  className="font-gatwickreg text-white hover:text-sgorange py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right">
             {item.disabled?
             
-            <div className="font-gatwickreg text-sgyellow py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right">  
-            <span className="opacity-25">{item.title}</span> (soon!)
+            <div className="flex-row items-start justify-start text-left">  
+            <span className="opacity-25">{item.title}</span>
             </div>
             :
-            <Link key={i} className="font-gatwickreg text-white hover:text-sgorange py-3 text-[12px] border-b border-[rgba(255,255,255,0.25)] pl-4  w-full lg:w-auto text-center lg:text-right" href={item.link}>
+            <Link key={i} className="font-gatwickreg text-white hover:text-sgorange py-3 text-[12px] pl-4  w-full lg:w-auto text-center lg:text-right" href={item.link}>
             <div className="flex flex-row">
               {router.pathname === ("/"+item.link) ? "• " : null}
               {(router.pathname === "/")&&(item.link==="/") ? "• " : null}
@@ -29,7 +29,7 @@ export default function Footer () {
               </div>
             </Link>
             }
-            </>)
+            </div>)
       })
 
     return (
