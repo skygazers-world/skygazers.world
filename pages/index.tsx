@@ -33,7 +33,7 @@ export default function Home() {
     </div>
       <div className='w-full bg-contain bg-no-repeat bg-[url(/bg_on_white.png)] flex flex-col justify-center items-center pt-12 md:pt-24 pb-[50px]'>
         <h1 className="w-[80%] max-w-[932px] text-transparent bg-clip-text bg-gradient-to-b from-sgbrown to-sgorange2 uppercase text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] text-center">
-        In a time when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You, my friend, are <br className='hidden md:block' /> a skygazer now.</span>
+        In a time when wars are waged over your attention, gazing up at the sky has become a rare phenomenon, a rebellious act. BUT What if you do? What will you see? AND HOW WILL YOUR OBSERVATIONS HAVE an effect ON the FUTURE, near and far, Yours and that of your surrounding? <br /><br /><span className="font-gatwickbold">You my friend, are <br className='hidden md:block' /> a skygazer now.</span>
         </h1>
       </div>
 
