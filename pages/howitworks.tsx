@@ -7,7 +7,7 @@ import Header from '../components/shared/Header';
 
 export default function Howitworks () {
   const skypaperlink = 'https://hackmd.io/@3LPbX2EzR_CWxkXCzlRagg/HkeanZJT_c';
-  const skyapplink = 'http://google.com';
+  const skyapplink = 'https://app.skygazers.world/';
   
   const QuestionsNarrator = [
     {
@@ -105,16 +105,16 @@ export default function Howitworks () {
                 <span className='font-gatwickbold'>Required:</span> Skygazer-NFT
               </p>
             </div>
-            {/* <Link href={skyapplink}>
+            <Link href={skyapplink}>
             <div className='flex flex-col items-center md:items-end'>
                 <Icons.Narrator fill="#FF5C00" />
                 <p className='font-gatwickbold underline'>visit dapp</p>
             </div>
-            </Link> */}
-            <div className='flex flex-col items-center md:items-end opacity-25'>
+            </Link>
+            {/* <div className='flex flex-col items-center md:items-end opacity-25'>
                 <Icons.Narrator fill="#FF5C00" />
                 <p className='font-gatwickbold underline'>visit dapp</p>
-            </div>
+            </div> */}
           </div>
           {QuestionsNarrator &&
           <div className='w-full max-w-[890px]'>
@@ -130,10 +130,8 @@ export default function Howitworks () {
           </div>
           }
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
-              {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>*/}
-              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
-              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
+              <Link href={skyapplink+'mint'}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
               <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
         </div>
@@ -165,16 +163,12 @@ export default function Howitworks () {
                 <span className='font-gatwickbold'>Required:</span> DAO-membership (Skygazer Timetokens (STT))
               </p>
             </div>
-            {/* <Link href={skyapplink}>
+            <Link href={skyapplink}>
             <div className='flex flex-col items-center md:items-end'>
                 <Icons.Narrator fill="#FF5C00" />
                 <p className='font-gatwickbold underline'>visit dapp</p>
             </div>
-            </Link> */}
-            <div className='flex flex-col items-center md:items-end opacity-25'>
-                <Icons.Narrator fill="#FF5C00" />
-                <p className='font-gatwickbold underline'>visit dapp</p>
-            </div>
+            </Link>
           </div>
           {QuestionsLorist &&
           <div className='w-full max-w-[890px]'>
@@ -190,10 +184,10 @@ export default function Howitworks () {
           </div>
           }
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
-              {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>*/}
-              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
-              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
+              <Link href={skyapplink+'mint'}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
+              {/* <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
+              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button> */}
               <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
         </div>
@@ -279,9 +273,7 @@ export default function Howitworks () {
           </div>
           } */}
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
-            {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
-            <Link href={skyapplink}><button className='smallyellowbtn'>read Skypaper</button></Link> */}
-            <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
+            <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
             <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
         </div>
@@ -314,16 +306,12 @@ export default function Howitworks () {
                   <span className='font-gatwickbold'>Required:</span> DAO-membership (Skygazer Timetokens (STT))
                 </p>
               </div>
-              {/* <Link href={skyapplink}>
+              <Link href={skyapplink}>
               <div className='flex flex-col items-center md:items-end'>
                   <Icons.Lorist />
                   <p className='font-gatwickbold underline'>visit dapp</p>
               </div>
-              </Link> */}
-              <div className='flex flex-col items-center md:items-end opacity-25'>
-                  <Icons.Lorist />
-                  <p className='font-gatwickbold underline'>visit dapp</p>
-              </div>
+              </Link>
             </div>
             {QuestionsMaker &&
             <div className='w-full max-w-[890px]'>
@@ -339,10 +327,8 @@ export default function Howitworks () {
             </div>
             }
             <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
-              {/* <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
-              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>*/}
-              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
-              <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button>
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+              <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
               <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
             </div>
           </div>
@@ -355,9 +341,7 @@ export default function Howitworks () {
               <h2 className='text-sgyellow'>THE</h2>
               <h1 className='text-sgyellow text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-6'>BELIEVER</h1>
               <p className='text-sgyellow text-[20px] mb-3'>Putting money where the mouth is, a believer buys into the community without actively taking up any other role.</p>
-              {/* <Link className='w-[70%] mt-12' href={skyapplink}><button className='middlerounded bg-sgyellow text-sgbodycopy'>buy NFT</button></Link> */}
-              <button disabled className='middlerounded bg-sgyellow text-sgbodycopy mt-12 opacity-25'>buy NFT</button>
-
+              <Link className='w-[70%] mt-12' href={skyapplink}><button className='middlerounded bg-sgyellow text-sgbodycopy'>buy NFT</button></Link>
             </div>
             <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-16'>
               <h2 className='text-sgyellow'>THE</h2>

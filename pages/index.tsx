@@ -8,7 +8,7 @@ import Currentlyminting from '../components/home/Currentlyminting'
 
 export default function Home() {
   const skypaperlink = 'https://hackmd.io/@3LPbX2EzR_CWxkXCzlRagg/HkeanZJT_c';
-  const skyapplink = 'http://google.com';
+  const skyapplink = 'https://app.skygazers.world/';
 
   return (
     <div className="font-gatwickreg">
@@ -21,9 +21,9 @@ export default function Home() {
           <Icons.Github width='25px' fill="#faf3f0"/>
         </Link>
         <div className='flex-1 sm:flex-none'></div>
-        {/* <Link href={skyapplink}><button className="bg-sgbrown hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5">visit app</button>
-        </Link> */}
-        <button disabled className="bg-sgbrown hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5 opacity-25">visit app</button>
+        <Link href={skyapplink}><button className="bg-sgorange hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5">visit app</button>
+        </Link>
+        {/* <button disabled className="bg-sgbrown hover:bg-sgbrown text-white font-bold py-1 px-3 rounded text-sm ml-5 opacity-25">visit app</button> */}
         </div>
       <div className='w-full h-full flex flex-col items-end sm:items-end justify-start sm:justify-start '>
         <div className='w-[250px] md:w-[300px] lg:w-[360px] mt-10 lg:mt-32 mr-8 md:mr-16 xl:mr-32'>
@@ -142,8 +142,8 @@ export default function Home() {
             <h2 className=''>THE</h2>
             <h1 className='text-[24px] md:text-[32px] leading-[32px] md:leading-[48px] mb-4'>BELIEVER</h1>
             <p className='text-[18px]'>Putting the money where the mouth is, a believer buys into the community without actively taking up any other role, and quitly watches as everything unfolds.</p>
-            {/* <Link className='w-[70%]' href={skyapplink}><button className='middlerounded bg-sgorange text-sgbodycopy mt-8' disabled>buy NFT</button></Link> */}
-            <button className='middlerounded bg-sgorange text-sgbodycopy mt-8 opacity-25' disabled>buy NFT</button>
+            <Link className='w-[70%]' href={skyapplink}><button className='middlerounded bg-sgorange text-sgbodycopy mt-8'>buy NFT</button></Link>
+            {/* <button className='middlerounded bg-sgorange text-sgbodycopy mt-8 opacity-25' disabled>buy NFT</button> */}
           </div>
           <div className='w-4/5 lg:w-[45vw] max-w-[450px] lg:ml-[5vw] flex flex-col items-center text-center justify-center border-b-[5px] border-[rgba(255,253,195,0.1)] py-8 md:py-12'>
             <h2 className=''>The</h2>
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Currentlyminting phase="pre" character={"Monk"} skyapplink={skyapplink} />
+      <Currentlyminting phase="active" character={"Monk"} skyapplink={skyapplink} />
     </div>
   )
 }

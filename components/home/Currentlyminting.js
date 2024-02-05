@@ -40,7 +40,7 @@ export default function Currentlyminting ({phase, skyapplink, character}) {
                 <h2 className='text-sgyellow text-[16px] lg:text-[20px] leading-[24px] mb-[20px]'>Currently minting:</h2>
                 <h1 className='text-sgyellow text-[44px] lg:text-[56px]'>{character}</h1>
                 <p className='max-w-[80%] font-gatwickreg text-[16px] lg:text-[20px] text-center lg:text-left leading-[24px] lg:leading-[30px] mb-[40px] mt-[30px]'>Find {character} in your favourite setting and join the movement right now!</p>
-                <Link href={skyapplink+'/buy'}><button className='middlerounded text-sgyellow bg-sgdark'>browse {character}</button></Link>
+                <Link href={skyapplink+'/mint'}><button className='middlerounded text-sgyellow bg-sgdark'>browse {character}</button></Link>
                 </div>
                 <img className='w-[854px]' src={'/currentlyminting-'+character+'.png'} alt={'Currently Minting: '+character}/>
             </div>
