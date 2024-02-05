@@ -130,7 +130,7 @@ export default function Howitworks () {
           </div>
           }
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
-              <Link href={skyapplink+'/mint'}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+              <Link href={skyapplink+'mint'}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
               <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
               <a target="_blank" rel="noopener noreferrer"  href={skypaperlink} className='smallyellowbtn'><button >read Skypaper</button></a>
           </div>
@@ -184,7 +184,7 @@ export default function Howitworks () {
           </div>
           }
           <div className='w-full flex flex-col md:flex-row items-start justify-start pt-6'>
-              <Link href={skyapplink+'/mint'}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
+              <Link href={skyapplink+'mint'}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>buy NFT</button></Link>
               <Link href={skyapplink}><button className='smallyellowbtn md:mr-3 mb-3 md:mb-0'>visit dapp</button></Link>
               {/* <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>buy NFT</button>
               <button disabled className='smallyellowbtn md:mr-3 mb-3 md:mb-0 opacity-25'>visit dapp</button> */}
