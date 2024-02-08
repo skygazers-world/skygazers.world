@@ -61,7 +61,7 @@ export default function Header () {
           {linkItems}
           </div>
           <div className="flex flex-row w-full items-center pl-6 pb-8">
-            <Link href="https://discord.gg/jQbMvzbV" className="fill-white hover:fill-sgbrown mr-3">
+            <Link href="https://discord.gg/E5TR8zs2Rz" className="fill-white hover:fill-sgbrown mr-3">
               <Icons.Discord fill="inherit" width="24px" />
             </Link>
             <Link href="https://github.com/skygazers-world" className="fill-white hover:fill-sgbrown">
