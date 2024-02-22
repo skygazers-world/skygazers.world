@@ -34,7 +34,7 @@ export default function Howitworks () {
   const QuestionsLorist = [
     {
       Q:"What is a Lorist?",
-      A:"In the context Skygazers, a Lorist is someone who owns Skygazer Timetokens (STT), and actively contributes to the Skygazers Lore by submitting Lore Changes."
+      A:"In the context Skygazers, a Lorist is someone who actively contributes to the Skygazers Lore by submitting Lore Changes."
     },
     {
       Q:"What is a Lore Change?",
@@ -58,11 +58,11 @@ export default function Howitworks () {
   const QuestionsMaker = [
     {
       Q:"What is a Maker?",
-      A:"In the context Skygazers, a maker is someone who owns Skygazer Timetokens (STT) and who creates a Derived Product Proposal (DPP). Once accepted by the Skygazers-DAO, the Maker is the one responsible for seeing that specific project to a good end, producing and managing the Derived product."
+      A:"In the context Skygazers, a maker is someone who creates a Derived Product Proposal (DPP). Once accepted by the Skygazers-DAO, the Maker is the one responsible for seeing that specific project to a good end, producing and managing the Derived product."
     },
     {
       Q:"Can anyone become a Maker?",
-      A:"If you own Skygazer Timetokens (STT), you are a member of the Skygazers-DAO and therefore can submit a Derived Product Proposal (DPP). Once your DPP is accepted, and you start executing it, you are considered a Maker in the Skygazers-DAO"
+      A:"If you own a Skygazers NFT, you are a member of the Skygazers-DAO and therefore can submit a Derived Product Proposal (DPP). Once your DPP is accepted, and you start executing it, you are considered a Maker in the Skygazers-DAO"
     },
   ];
   
@@ -91,7 +91,7 @@ export default function Howitworks () {
           </h1>
           <p className='font-gatwickbold mt-8 mb-3'>As a narrator...</p>
           <ul className='list-disc list-outside pl-3 mb-8'>
-            <li className='mb-2 pl-2'>you own an NFT, depicting a character, on a world in a certain situation.</li>
+            <li className='mb-2 pl-2'>you own a Skygazers NFT, depicting a character, on a world in a certain situation.</li>
             <li className='mb-2 pl-2'>you are inspired by the combination of these elements: a story takes shape in your head.</li>
             <li className='mb-2 pl-2'>you use the Skygazers-dapp to write out this story next to your NFT.</li>
             <li className='mb-2 pl-2'>you submit the story to the community, so they can vote on accepting your story to the collection of adventures.</li>
@@ -102,7 +102,7 @@ export default function Howitworks () {
               <p className='font-gatwickbold uppercase text-sgbodycopy opacity-40 text-[18px] md:text-[20px] mb-2'>beCOME a narrator</p>
               <p className='font-gatwickreg leading-6 md:leading-8 bodycopy'>
                 <span className='font-gatwickbold'>Skills:</span> Story-telling, imagination, authorship<br />
-                <span className='font-gatwickbold'>Required:</span> Skygazer-NFT
+                <span className='font-gatwickbold'>Required:</span> Skygazers NFT
               </p>
             </div>
             <Link href={skyapplink}>
@@ -150,7 +150,7 @@ export default function Howitworks () {
           </h1>
           <p className='font-gatwickbold mt-8 mb-3'>As a lorist... </p>
           <ul className='list-disc list-outside pl-3 mb-8'>
-            <li className='mb-2 pl-2'>you own Skygazer Timetokens (STT), which makes you a member of the Skygazers-DAO.</li>
+            <li className='mb-2 pl-2'>you own a Skygazer NFT, which makes you a member of the Skygazers-DAO.</li>
             <li className='mb-2 pl-2'>you are fascinated by the totality of the Skygazers universe: background stories, names, characteristics, etc.</li>
             <li className='mb-2 pl-2'>you actively vote on proposals about the lore.</li>
             <li className='mb-2 pl-2'>you may create a proposal to edit a piece of lore or add one.</li>
@@ -160,7 +160,7 @@ export default function Howitworks () {
               <p className='font-gatwickbold uppercase text-sgbodycopy opacity-40 text-[18px] md:text-[20px] mb-2'>beCOME a Lorist</p>
               <p className='font-gatwickreg leading-6 md:leading-8 bodycopy'>
                 <span className='font-gatwickbold'>Skills:</span> World-building, character-design, consistency<br />
-                <span className='font-gatwickbold'>Required:</span> DAO-membership (Skygazer Timetokens (STT))
+                <span className='font-gatwickbold'>Required:</span> DAO-membership (owning NFT)
               </p>
             </div>
             <Link href={skyapplink}>
@@ -291,7 +291,7 @@ export default function Howitworks () {
             </h1>
             <p className='font-gatwickbold mt-8 mb-3'>As a maker... </p>
             <ul className='list-disc list-outside pl-3 mb-8'>
-              <li className='mb-2 pl-2'>you own Skygazer Timetokens (STT), which makes you a member of the Skygazers-DAO.</li>
+              <li className='mb-2 pl-2'>you own a Skygazer NFT, which makes you a member of the Skygazers-DAO.</li>
               <li className='mb-2 pl-2'>you pick an adventure from the collection that inspires you to create a derived product.</li>
               <li className='mb-2 pl-2'>you create a DPP (derived product proposal).</li>
               <li className='mb-2 pl-2'>you received the funds requested in your DPP.</li>
@@ -303,7 +303,7 @@ export default function Howitworks () {
                 <p className='font-gatwickbold uppercase text-sgbodycopy opacity-40 text-[18px] md:text-[20px] mb-2'>beCOME a Maker</p>
                 <p className='font-gatwickreg leading-6 md:leading-8 bodycopy'>
                   <span className='font-gatwickbold'>Skills:</span> World-building, character-design, consistency<br />
-                  <span className='font-gatwickbold'>Required:</span> DAO-membership (Skygazer Timetokens (STT))
+                  <span className='font-gatwickbold'>Required:</span> DAO-membership (own Skygazers NFT)
                 </p>
               </div>
               <Link href={skyapplink}>
@@ -347,7 +347,7 @@ export default function Howitworks () {
               <h2 className='text-sgyellow'>THE</h2>
               <h1 className='text-sgyellow text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-6'>ENTHUSIAST</h1>
               <p className='text-sgyellow text-[20px] mb-5'>Happy with little, the enthusiast is a valued part of the community, hanging around by the metaphorical watercooler.</p>
-              <Link className='w-[70%] mt-12' href="howitworks/#lore"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join Discord</button></Link>
+              <Link className='w-[70%] mt-12' href="https://discord.gg/E5TR8zs2Rz"><button className='middlerounded bg-sgyellow text-sgbodycopy'>join Discord</button></Link>
             </div>
           </div>
         </div>

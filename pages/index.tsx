@@ -14,7 +14,7 @@ export default function Home() {
     <div className="font-gatwickreg">
       <div className="w-full h-[650px] sm:h-[377px] md:h-[400px] lg:h-[500px] xl:h-[577px] bg-cover bg-center bg-[url('/website_coverimage_V5_mobile.png')] sm:bg-[url('/website_coverimage_V5.png')]">
       <div className="w-full z-50 flex flex-row items-center justify-start pt-4 pl-14 pr-6">
-        <Link href="https://discord.gg/jQbMvzbV" className="mr-3">
+        <Link href="https://discord.gg/E5TR8zs2Rz" className="mr-3">
             <Icons.Discord width='25px' fill="#faf3f0" />
         </Link>
         <Link href="https://github.com/skygazers-world">
@@ -149,7 +149,7 @@ export default function Home() {
             <h2 className=''>The</h2>
             <h1 className=' text-[26px] md:text-[36px] leading-[32px] md:leading-[48px] mb-4'>ENTHUSIAST</h1>
             <p className='text-[18px]'>Happy with little, the enthusiast is a valued part of the community, hanging around by the metaphorical watercooler.</p>
-            <Link className='w-[70%] mt-12' href="https://discord.gg/jQbMvzbV"><button className='middlerounded bg-sgorange text-sgbodycopy'>join Discord</button></Link>
+            <Link className='w-[70%] mt-12' href="https://discord.gg/E5TR8zs2Rz"><button className='middlerounded bg-sgorange text-sgbodycopy'>join Discord</button></Link>
           </div>
         </div>
       </div>

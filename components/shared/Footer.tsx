@@ -39,7 +39,7 @@ export default function Footer () {
             </div>
             <div className="flex w-full lg:w-auto lg:flex-1 flex-col-reverse lg:flex-row items-end justify-start mt-12">
             <div className="flex flex-row items-center justify-start lg:ml-24 mt-16 lg:mt-0">
-                <Link href="https://discord.gg/jQbMvzbV" className="mr-5 fill-white hover:fill-sgorange">
+                <Link href="https://discord.gg/E5TR8zs2Rz" className="mr-5 fill-white hover:fill-sgorange">
                     <Icons.Discord width='22px' height="21.29" fill="inherit" />
                 </Link>
                 <Link href="https://github.com/skygazers-world" className="mr-5 fill-white hover:fill-sgorange">
